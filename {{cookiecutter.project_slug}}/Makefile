@@ -1,0 +1,18 @@
+.PHONY: docs
+flake8:
+	flake8 --ignore=E501,F401,E128,E402,E731,F821 {{ cookiecutter.project_slug }}
+
+package:
+	rm -rf build dist .egg {{ cookiecutter.project_slug }}.egg-info
+	python3.6 setup.py release sdist bdist_wheel
+
+publish:
+	twine upload dist/*
+	rm -rf build dist .egg {{ cookiecutter.project_slug }}.egg-info
+
+docs:
+	cd docs && make html
+	@echo -e "\033[95m\n\nBuild successful! View the docs homepage at docs/_build/html/index.html.\n\033[0m"
+
+tests:
+	python run_tests.py --unit --output text --dist arch
