@@ -11,7 +11,7 @@ Welcome to {{ cookiecutter.project_slug }}
 .. image:: https://img.shields.io/pypi/l/{{ cookiecutter.project_slug }}.svg
     :target: https://pypi.python.org/pypi/{{ cookiecutter.project_slug }}
 
-.. image:: https://tactile.com.au/badge-server/coverage/{{ cookiecutter.project_slug }}1
+.. image:: {{ cookiecutter.badge_server_url }}/coverage/{{ cookiecutter.project_slug }}1
     :target: https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}
 
 .. image:: https://img.shields.io/pypi/pyversions/{{ cookiecutter.project_slug }}.svg

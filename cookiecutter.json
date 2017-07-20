@@ -1,9 +1,10 @@
 {
-  "full_name": "Jeremy Arr",
-  "email": "jeremyarr@gmail.com",
-  "github_username": "jeremyarr",
+  "full_name": "Your Name",
+  "email": "your@email.address",
+  "github_username": "your_github_username",
   "project_name": "my_project",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
   "project_short_description": "insert short description",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "badge_server_url": "https://badge_server_url"
 }

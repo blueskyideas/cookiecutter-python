@@ -1,6 +1,6 @@
 cookiecutter-pypi
 ----------------------------
-How I package up my python projects for distribution on pypi.
+How I setup my projects for distribution on pypi.
 
 
 Requirements:
@@ -46,8 +46,7 @@ Usage:
     $ git remote add origin <repo_url>
     $ git push --set-upstream origin master
 
-4. Go to https://rawgit.com/ and generate a production url for ``docs/_static/logo_full.svg``. Insert it into ``README.rst`` and ``docs/index.rst`` in place of ``docs/_static/logo_full.svg``
-.
+4. Go to https://rawgit.com/ and generate a production url for ``docs/_static/logo_full.svg``. Insert it into ``README.rst`` and ``docs/index.rst`` in place of ``docs/_static/logo_full.svg``.
 
 5. Setup jenkins build job <repo_name>1
 
