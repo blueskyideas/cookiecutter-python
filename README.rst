@@ -35,13 +35,22 @@ Usage:
 
     $ cookiecutter path/to/cloned/cookiecutter-pypi/repository
 
-3. Push your repository to GitHub:
+3. Create a repository in GitHub. Do not initialize the new repository with README, license, or gitignore files
+
+4. Push your repository to GitHub:
 
 .. code-block:: bash
 
+    $ git init
     $ git commit -am "initial commit"
-    $ git push
-
+    $ git remote add origin <repo_url>
+    $ git push --set-upstream origin master
 
 4. Go to https://rawgit.com/ and generate a production url for ``docs/_static/logo_full.svg``. Insert it into ``README.rst`` and ``docs/index.rst`` in place of ``docs/_static/logo_full.svg``
 .
+
+5. Setup jenkins build job <repo_name>1
+
+6. Setup master as a protected branch in GitHub with status checks
+
+7. Do a pull request to verify Jenkins is performing builds
