@@ -33,7 +33,7 @@ Usage:
 
 .. code-block:: bash
 
-    $ cookiecutter path/to/cloned/repository
+    $ cookiecutter path/to/cloned/cookiecutter-pypi/repository
 
 3. Push your repository to GitHub:
 
