@@ -12,30 +12,30 @@ Requirements:
 Installation
 -------------
 
-1. clone the repository
+1. Clone the repository:
 
 .. code-block:: bash
 
     git clone https://github.com/jeremyarr/cookiecutter-pypi.git
 
-2. edit ``cookicutter.json`` with your details
+2. Edit the ``cookicutter.json`` file with your details
 
 Usage:
 ---------
 
-1. cd into the location you want use:
+1. Navigate to the location you want use:
 
 .. code-block:: bash
 
     $ cd my_python_dev_folder
 
-2. from the command line, run:
+2. From the command line, run:
 
 .. code-block:: bash
 
     $ cookiecutter path/to/cloned/repository
 
-3. Push your repository to GitHub
+3. Push your repository to GitHub:
 
 .. code-block:: bash
 
@@ -43,5 +43,5 @@ Usage:
     $ git push
 
 
-4. go to https://rawgit.com/ and generate a production url for `docs/_static/logo_full.svg`. Insert it into ``README.rst`` and ``docs/index.rst`` in place of `docs/_static/logo_full.svg`
+4. Go to https://rawgit.com/ and generate a production url for ``docs/_static/logo_full.svg``. Insert it into ``README.rst`` and ``docs/index.rst`` in place of ``docs/_static/logo_full.svg``
 .
