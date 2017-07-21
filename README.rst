@@ -1,5 +1,5 @@
 cookiecutter-pypi
-----------------------------
+==================
 How I setup my projects.
 
 
