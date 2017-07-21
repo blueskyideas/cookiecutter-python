@@ -1,9 +1,10 @@
 .. image:: _static/logo_full.png
-    :target: https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}
+    :target: https://{{ cookiecutter.project_slug }}.readthedocs.io
 
-|
+Welcome to {{ cookiecutter.project_slug }}
+=============================================
 
-.. image:: {{ cookiecutter.jenkins_server_url }}/jenkins/buildStatus/icon?job={{ cookiecutter.project_slug }}1
+.. image:: {{ cookiecutter.jenkins_server_url }}/buildStatus/icon?job={{ cookiecutter.project_slug }}1
     :target: https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}
 
 .. image:: https://img.shields.io/pypi/l/{{ cookiecutter.project_slug }}.svg

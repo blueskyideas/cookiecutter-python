@@ -55,9 +55,9 @@ Typical Project Setup Steps:
 
 7. Give anon user ViewStatus role for the build job
 
-8. Setup master as a protected branch in GitHub with status checks
+8. Do a pull request from the dev branch to verify Jenkins is performing builds
 
-9. Do a pull request to verify Jenkins is performing builds
+9. Setup master as a protected branch in GitHub with status checks
 
 10. Setup documentation at https://readthedocs.org/
 
