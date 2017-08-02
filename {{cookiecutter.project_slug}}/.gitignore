@@ -102,3 +102,6 @@ ENV/
 
 #custom
 test-reports/
+junk.py
+junk2.py
+junk3.py
