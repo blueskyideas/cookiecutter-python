@@ -4,10 +4,9 @@ import asyncio
 
 import xmlrunner
 
-import {{ cookiecutter.project_slug }}
+from test.context import {{ cookiecutter.project_slug }}
 from test import common
-from test import unittest_utils
-
+import younit
 
 # @unittest.skip("skipped")
 class SimpleTest(unittest.TestCase):
