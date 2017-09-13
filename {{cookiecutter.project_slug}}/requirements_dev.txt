@@ -2,3 +2,4 @@ xmlrunner
 coverage
 -e git+git@github.com:jeremyarr/younit.git@master#egg=younit
 Sphinx
+-r docs/requirements.txt
