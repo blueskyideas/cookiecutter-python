@@ -43,6 +43,7 @@ Typical Project Setup Steps:
 .. code-block:: bash
 
     $ git init
+    $ git add --all
     $ git commit -am "initial commit"
     $ git remote add origin <repo_url>
     $ git push --set-upstream origin master
