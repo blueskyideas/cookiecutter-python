@@ -4,7 +4,6 @@ import asyncio
 
 import xmlrunner
 
-from test.context import {{ cookiecutter.project_slug }}
 from test import common
 import younit
 

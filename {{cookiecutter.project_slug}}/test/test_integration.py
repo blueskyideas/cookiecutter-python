@@ -6,7 +6,6 @@ import xmlrunner
 
 import {{ cookiecutter.project_slug }}
 from test import common
-from test import unittest_utils
 
 
 # @unittest.skip("skipped")
