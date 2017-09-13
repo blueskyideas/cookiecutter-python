@@ -16,3 +16,9 @@ docs:
 
 tests:
 	python run_tests.py --unit --output text --dist arch
+
+virtualenv:
+	rm -rf env
+	virtualenv -p python3.6 env
+	. env/bin/activate
+	pip install -r requirements-dev.txt

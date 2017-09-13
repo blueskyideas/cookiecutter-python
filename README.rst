@@ -56,11 +56,17 @@ Typical Project Setup Steps:
 
 7. Give anon user ViewStatus role for the build job
 
-8. Do a pull request from the dev branch to verify Jenkins is performing builds
+8. Setup a virtualenv using the requirements from requirements-dev.txt
 
-9. Setup master as a protected branch in GitHub with status checks
+.. code-block:: bash
 
-10. Setup documentation at https://readthedocs.org/
+    $ make virtualenv
+
+9. Do a pull request from the dev branch to verify Jenkins is performing builds
+
+10. Setup master as a protected branch in GitHub with status checks
+
+11. Setup documentation at https://readthedocs.org/
 
 Useful Commands
 -----------------
