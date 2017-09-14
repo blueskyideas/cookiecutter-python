@@ -19,6 +19,6 @@ tests:
 
 virtualenv:
 	rm -rf env
-	virtualenv -p python3.6 env
+	virtualenv --python=python3.6 env
 	. env/bin/activate
 	pip install -r requirements_dev.txt
