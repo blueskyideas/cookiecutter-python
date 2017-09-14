@@ -20,5 +20,7 @@ tests:
 virtualenv:
 	rm -rf env
 	virtualenv --python=python3.6 env
-	. env/bin/activate
-	pip install -r requirements_dev.txt
+	#need to reference the virtualenv's pip
+	#using . /env/bin/activate doesnt work from within a Makefile
+	#"The basic issue is that a child process can not alter the parent's environment"
+	./env/bin/pip install -r requirements_dev.txt
