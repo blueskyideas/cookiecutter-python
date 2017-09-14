@@ -38,7 +38,8 @@ with open(os.path.join(here,"..",'{{ cookiecutter.project_slug }}', '__version__
 # ones.
 extensions = ['sphinx.ext.autodoc',
     'sphinx.ext.todo',
-    'sphinxcontrib.asyncio']
+    'sphinxcontrib.asyncio',
+    'sphinxcontrib.napoleon']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

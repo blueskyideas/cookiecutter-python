@@ -1,1 +1,2 @@
 sphinxcontrib-asyncio
+sphinxcontrib-napoleon
