@@ -12,7 +12,7 @@ echo "activating virtualenv"
 . env/bin/activate
 
 echo "installing required packages"
-pip install -r requirements_dev.txt
+./env/bin/pip install -r requirements_dev.txt
 
 echo "performing test"
 
