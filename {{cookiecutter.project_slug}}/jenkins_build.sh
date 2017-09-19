@@ -16,7 +16,8 @@ echo "installing required packages"
 
 echo "performing test"
 
-./env/bin/coverage run --source={{ cookiecutter.project_slug }} run_tests.py --unit --integration --output xml --dist ubuntu
+# ./env/bin/coverage run --source={{ cookiecutter.project_slug }} run_tests.py --unit --integration --output xml --dist ubuntu
+./env/bin/pytest --cov={{ cookiecutter.project_slug }} --junitxml=test-reports/{{ cookiecutter.project_slug }}.xml test/
 
 ./env/bin/coverage xml
 ./env/bin/coverage html
