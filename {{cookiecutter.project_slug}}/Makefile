@@ -15,7 +15,9 @@ docs:
 	@echo -e "\033[95m\n\nBuild successful! View the docs homepage at docs/_build/html/index.html.\n\033[0m"
 
 tests:
-	python run_tests.py --unit --output text --dist arch
+	./env/bin/pytest --cov={{ cookiecutter.project_slug }} --junitxml=test-reports/{{ cookiecutter.project_slug }}.xml test/
+	./env/bin/coverage html
+	# python run_tests.py --unit --output text --dist arch
 
 virtualenv:
 	rm -rf env

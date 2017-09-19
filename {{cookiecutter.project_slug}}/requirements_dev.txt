@@ -2,4 +2,6 @@ xmlrunner
 coverage
 -e git+git@github.com:jeremyarr/younit.git@master#egg=younit
 Sphinx
+pytest
+pytest-cov
 -r docs/requirements.txt
