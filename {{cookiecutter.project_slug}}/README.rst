@@ -22,12 +22,13 @@ Development
 Setup a virtualenv including dev dependencies:
 
 .. code-block:: bash
+
 	$ cd {{ cookiecutter.project_slug }}
 
     $ make virtualenv
 
 
-Install in editable mode
+Install in editable mode:
 
 .. code-block:: bash
 

@@ -55,7 +55,6 @@ User Guide
    changelog
    license
    authors
-   kudos
    contributing
 
 Indices and tables
