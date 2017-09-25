@@ -29,14 +29,9 @@ setup(
     zip_safe=False,
     author="{{ cookiecutter.full_name }}",
     author_email="{{ cookiecutter.email }}",
-    license="MIT",
+    license="Proprietary",
     keywords=[],
-    url="https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}",
-    classifiers = [
-        'Development Status :: 2 - Pre-Alpha',
-        'License :: OSI Approved :: MIT License',
-        'Intended Audience :: Developers',
-        'Programming Language :: Python :: 3.6',
-    ]
+    url="https://github.com/blueskyideas/{{ cookiecutter.project_slug }}",
+
 )
 

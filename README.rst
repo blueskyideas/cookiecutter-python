@@ -34,7 +34,7 @@ Typical Project Setup Steps:
 
 .. code-block:: bash
 
-    $ cookiecutter path/to/cloned/cookiecutter-pypi
+    $ cookiecutter path/to/cloned/cookiecutter-python
 
 3. Create a project repository in GitHub matching the name used when cookie cutting. Do not initialize with README, license, or gitignore files
 
@@ -66,7 +66,11 @@ Typical Project Setup Steps:
 
 10. Setup master as a protected branch in GitHub with status checks
 
-11. Setup documentation at https://readthedocs.org/
+11. Do a test documentation build:
+
+.. code-block:: bash
+
+    $ make docs
 
 Useful Commands
 -----------------
@@ -99,7 +103,7 @@ Running tests:
 
 .. code-block:: bash
 
-    $ python run_tests.py -h
+    $ pytest
 
 PEP8 checking:
 
