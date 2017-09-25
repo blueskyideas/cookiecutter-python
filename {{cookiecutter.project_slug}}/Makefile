@@ -6,10 +6,6 @@ package:
 	rm -rf build dist .egg {{ cookiecutter.project_slug }}.egg-info
 	python3.6 setup.py release sdist bdist_wheel
 
-publish:
-	twine upload dist/*
-	rm -rf build dist .egg {{ cookiecutter.project_slug }}.egg-info
-
 docs:
 	cd docs && make html
 	@echo -e "\033[95m\n\nBuild successful! View the docs homepage at docs/_build/html/index.html.\n\033[0m"

@@ -1,5 +1,5 @@
-cookiecutter-pypi
-==================
+cookiecutter-python
+======================
 How to setup Envirnexus Python projects
 
 
@@ -86,12 +86,6 @@ Generating build artifacts:
 .. code-block:: bash
 
     $ make package
-
-Uploading build artifacts to pypi:
-
-.. code-block:: bash
-
-    $ make publish
 
 Running unit tests locally:
 
