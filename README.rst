@@ -1,6 +1,6 @@
 cookiecutter-pypi
 ==================
-How I setup my projects.
+How to setup Envirnexus Python projects
 
 
 Requirements:
@@ -17,7 +17,7 @@ Installation
 
 .. code-block:: bash
 
-    git clone https://github.com/jeremyarr/cookiecutter-pypi.git
+    git clone https://github.com/blueskyideas/cookiecutter-python.git
 
 2. Edit the ``cookicutter.json`` file with your details
 
