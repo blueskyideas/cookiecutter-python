@@ -1,5 +1,0 @@
-coverage
-Sphinx
-pytest
-pytest-cov
--r docs/requirements.txt

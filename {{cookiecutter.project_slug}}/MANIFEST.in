@@ -1,0 +1,9 @@
+include Makefile CHANGELOG.rst LICENSE AUTHORS.rst
+
+global-exclude *.py[co]
+
+graft test
+graft scripts
+graft requirements
+
+prune docs/

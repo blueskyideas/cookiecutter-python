@@ -26,6 +26,14 @@ setup(
     install_requires=[
         
     ],
+    extras_require={
+        'dev': [
+            "coverage",
+            "pytest",
+            "pytest-cov",
+            "pytest-asyncio"
+        ],
+    },
     zip_safe=False,
     author="{{ cookiecutter.full_name }}",
     author_email="{{ cookiecutter.email }}",
