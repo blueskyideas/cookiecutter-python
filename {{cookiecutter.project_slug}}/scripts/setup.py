@@ -27,7 +27,6 @@ _LOGGER = logging.getLogger("script.setup")
 
 def run(*, verbose=False):
     common.run(_LOGGER, verbose=verbose)
-    creds_file = os.path.abspath(creds_file)
 
     bootstrap.run(verbose=verbose)
 
