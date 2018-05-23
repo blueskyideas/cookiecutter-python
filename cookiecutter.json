@@ -1,11 +1,9 @@
 {
   "full_name": "Jeremy Rotstein",
-  "email": "jeremyarr@gmail.com",
+  "email": "jeremy.r@environexus.com.au",
   "github_username": "jeremyarr",
   "project_name": "my_project",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
   "project_short_description": "insert short description",
-  "version": "0.1.0",
-  "badge_server_url": "https://badge_server_url",
-  "jenkins_server_url": "https://jenkins_server_url"
+  "version": "0.1.0"
 }
